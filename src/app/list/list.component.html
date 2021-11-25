@@ -1,1 +1,7 @@
-<p>list works!</p>
+<h1 i18n="@@listOfPlanets">List of planets</h1>
+
+<ul>
+  <li *ngFor="let planet of planets$ | async; index as i" (click)="getPlanetDetails(i + 1)">
+    {{ planet.name }}
+  </li>
+</ul>

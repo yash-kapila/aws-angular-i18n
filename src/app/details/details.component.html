@@ -1,1 +1,5 @@
-<p>details works!</p>
+<ng-container *ngIf="planetDetails$ | async as planetDetails">
+  <h1 i18n="@@planetDetailsHeading"> Below are planet details </h1>
+  <h2> Name: {{ planetDetails?.name }} </h2>
+  <h2> Climate: {{ planetDetails?.climate }} </h2>
+</ng-container>
