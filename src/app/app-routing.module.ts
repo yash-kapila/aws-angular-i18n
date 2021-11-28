@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'list', pathMatch: 'full' },
@@ -12,6 +13,7 @@ const routes: Routes = [
     loadChildren: () =>
       import('./details/details.module').then((m) => m.DetailsModule),
   },
+  { path: '**', component: ErrorComponent },
 ];
 
 @NgModule({
