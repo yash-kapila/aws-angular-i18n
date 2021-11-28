@@ -194,6 +194,10 @@ Congratulations!!!
 
 You have successfully setup your multi-locale application using S3, CloudFront and LambdaEdge services.
 
+### Demo
+
+Find a demo of this app at https://d3ilgvmta2e8p9.cloudfront.net/ and can play with `en` and `nl` languages.
+
 ## References:
 
 1. https://blog.cloudcraft.co/programming-your-cdn/
