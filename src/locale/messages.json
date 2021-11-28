@@ -1,7 +1,7 @@
 {
-  "locale": "en-US",
+  "locale": "en",
   "translations": {
-    "planetDetailsHeading": "Hieronder staan ​​planeetdetails",
-    "listOfPlanets": "Lijst van planeten"
+    "planetDetailsHeading": "Below are planet details",
+    "listOfPlanets": "List of planets"
   }
 }
