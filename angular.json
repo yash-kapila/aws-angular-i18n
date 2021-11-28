@@ -75,6 +75,11 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "en": {
+              "localize": [
+                "en"
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -87,6 +92,9 @@
             },
             "development": {
               "browserTarget": "i18n-s3:build:development"
+            },
+            "en": {
+              "browserTarget": "i18n-s3:build:en"
             }
           },
           "defaultConfiguration": "development"
