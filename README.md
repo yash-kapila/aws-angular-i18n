@@ -203,6 +203,13 @@ You have successfully setup your multi-locale application using S3, CloudFront a
 
 Find a demo of this app at https://d3ilgvmta2e8p9.cloudfront.net/ and can play with `en` and `nl` languages.
 
+Valid URLs:
+1. https://d3ilgvmta2e8p9.cloudfront.net
+2. https://d3ilgvmta2e8p9.cloudfront.net/en/list
+3. https://d3ilgvmta2e8p9.cloudfront.net/en/details/1
+4. https://d3ilgvmta2e8p9.cloudfront.net/nl/list
+5. https://d3ilgvmta2e8p9.cloudfront.net/nl/details/1
+
 ## References:
 
 1. https://blog.cloudcraft.co/programming-your-cdn/
