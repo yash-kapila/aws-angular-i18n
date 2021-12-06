@@ -138,6 +138,11 @@ exports.handler = (evt, ctx, cb) => {
 }
 ```
 
+Find more information about each argument of the handler function here:
+1. `evt` - https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-event-structure.html
+2. `ctx` - https://docs.aws.amazon.com/lambda/latest/dg/nodejs-context.html
+3. `cb` - https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-examples.html
+
 Deploy the code and publish it. Remember the `Function ARN` along with the version number published.
 
 Go back to the CloudFront distribution, Behaviors tab and Edit the Default behavior. Scroll to the bottom of the page to `Function associations`. At `Viewer request`, select `Lambda@Edge` as the function type and enter above created Function ARN.
