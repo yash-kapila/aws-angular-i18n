@@ -1,6 +1,7 @@
 {
   "/api/*": {
-    "target": "https://swapi.dev/",
-    "secure": false
+    "target": "https://swapi.py4e.com/",
+    "secure": false,
+    "changeOrigin": true
   }
 }
